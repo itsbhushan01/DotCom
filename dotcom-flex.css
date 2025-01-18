@@ -1,0 +1,717 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+.front header{
+    width: 100%;
+    background-image: url("../IMAGE/carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+header label{
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 600;
+    color: orange;
+}
+header span{
+    color: white;
+}
+header nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: white;
+    margin-left: 30px;
+}
+header .dots{
+    position: absolute;
+    top: 30%;
+
+}
+header .dot{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: orange;
+}
+header .dot-1{
+    background-color: white;
+}
+header select{
+    background-color: transparent;
+    color: white;
+}
+header .content{
+    width: 70%;
+    margin: 8% auto;
+    padding-left: 20%;
+}
+header .content p{
+    color: white;
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+header .content h2{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+header .content a{
+    background-color: orange;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* front is end here */
+
+
+
+.sec{
+    width: 80%;
+    margin: 8% auto;
+}
+.sec .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec .box .image{
+    width: 35%;
+}
+.sec .box .image img{
+    width: 100%;
+    padding: 4%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.721);
+}
+.sec .box .txt{
+    width: 62%;
+   
+}
+.sec .box .txt span{
+    font-size: 10px;
+    padding: 3px 15px;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+}
+.sec .box .txt h2{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.sec .box .txt p{
+    color: grey;
+    font-size: 13px;
+    line-height: 23px;
+}
+.sec .box button{
+    font-size: 12px;
+    padding: 5px 15px;
+    background-color: orange;
+    color: white;
+    margin: 2% 0;
+    border-radius: 5px;
+}
+
+
+
+
+/* secound is end here */
+
+.contact{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:5% auto;
+}
+.contact .box{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.543);
+}
+.contact .fa-solid{
+    color: orange;
+    font-size: 30px;
+    margin-right: 20px;
+  
+}
+.contact .box h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact .box p{
+    font-size: 12px;
+}
+
+/* contact is end here */
+
+
+.four{
+    width: 80%;
+    margin: 8% auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.four .box-1{
+    grid-row: 1/3;
+    margin-right: 5px;
+}
+
+ .box-1 span{
+font-size: 12px;
+background-color: orange;
+color: white;
+padding: 2px 10px;
+border-radius: 3px;
+
+}
+ .box-1 h2{
+    margin: 10px 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+ .box-1 p{
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(154, 143, 143);
+}
+ .box-1 button{
+    background-color: orange;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+ 
+  .box .fa-solid{
+    font-size: 25px;
+  
+    color: orange;
+}
+  .box h3{
+    font-size: 20px;
+    padding: 10px 0;
+}
+  .box p{
+    color: rgb(153, 139, 139);
+    margin-bottom: 10px;
+}
+  .box a{
+    color: orange;
+} 
+
+
+.five{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 45% 25% 25%;
+    grid-template-rows: repeat(2,1fr);
+}
+.five .box-1{
+    grid-row: 1/3;
+    margin-right: 5px;
+}
+
+.five .box-1 .fa-solid{
+    color: orange;
+    padding: 5px;
+}
+.five li{
+    margin-bottom: 10px;
+}
+.five .box{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
+    text-align: center;
+}
+.five .box h3{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.five .box p{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+    color: black;
+}
+
+
+
+.six{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    gap: 15px;
+    align-items: center;
+    grid-template-columns: 40% 19% 19% 19%;
+}
+.six .box{
+    border: 1px solid rgba(0, 0, 0, 0.299);
+
+}
+.six .box-1 p{
+    font-size: 15px;
+}
+.six .box .image{
+    max-width: 100%
+}
+.six  .box .image img{
+    width: 100%;
+}
+.six h2{
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.six .box .txt{
+    margin: 20px 0;
+    text-align: center;
+}
+.six  .box .txt h4{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.six  .txt p{
+    font-size: 12px;
+    color: rgb(95, 87, 87);
+} 
+
+
+
+
+
+
+
+
+
+.seven{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 25% 25% 50%;
+}
+.seven .box{
+    border: 1px solid gray;
+    text-align: center;
+}
+.seven .box .box-top{
+    background-color: orange;
+    color: black;
+}
+.seven .box .box-top p{
+    color: black;
+}
+.seven .box .box-top h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.seven .box .box-top sup{
+    font-size: 25px;
+}
+.seven .box .box-top span{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.seven .box .box-btm{
+    padding: 9px;
+}
+.seven .box .box-btm p{
+    margin: 10px;
+    font-size: 18px;
+    color: grey;
+}
+.seven .box .box-btm button{
+    background-color: orange;
+    padding: 7px 10px;
+    font-size: 15px;
+    color: white;
+    margin: 15px 0;
+}
+.seven .box-1 h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+/* seven is end here */
+                           
+
+
+
+.eight{
+    width: 80%;
+    margin: 10% auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 40% 30% 30%;
+}
+.eight .box .box-top{
+    padding: 20px;
+    border: 1px solid gray;
+}
+.eight .box-btm{
+    display: flex;
+    align-items: center;
+}
+.eight .box .box-btm img{
+    width: 75%;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.eight .box .box-btm h6{
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+.eight .box .box-btm p{
+   
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* eight is end here */
+
+
+
+.nine{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.nine .box{
+    display: flex;
+}
+
+
+.nine span{
+    margin-left: 45%;
+    background-color: orange;
+    color: white;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+    
+.nine h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.nine .nine-box{
+    width: 45%;
+    margin-right: 4%;
+    border: 2px solid rgba(128, 128, 128, 0.256);
+}
+.nine .nine-box .box-top img{
+    width: 100%;
+}
+.nine-box .box-btm{
+    display: flex;
+    align-items: center;
+}
+.nine-box .box-btm .image{
+    margin: 2% 5%;
+}
+.nine-box .box-btm img{
+    width: 75%;
+    border-radius: 50%;
+}
+.nine-box .box-btm .txt h6{
+    margin: 0;
+    color: rgb(113, 113, 113);
+    font-size: 15px;
+    font-weight: 600;
+}
+.nine-box  p{
+    padding: 10px;
+}
+
+
+
+
+/* nine is end here */
+
+
+ .ten{
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 30% 20% 20% 30%;
+    background-color: black;
+    color: white;
+    padding: 50px ;
+}
+ .ten .fa-brands{
+    font-size: 15px;
+    color: orange;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 50%;
+} 
+.box .ten-list i{
+    font-size: 12px;
+}
+ .ten label{
+    font-size: 50px;
+    font-weight: 700;
+    color: orange;
+}
+.ten-1 span{
+    color: white;
+}
+.ten-1 p{
+    font-size: 15px;
+}
+.ten .fa-solid{
+    color: orange;
+    margin-right:8px;
+}
+.ten  h3{
+    color: orange;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.ten .ten-list li,p{
+    font-size: 13px;
+    padding: 3px 0;
+}
+
+
+
+
+.copyright{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.copyright p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+}
+.copyright span{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:769px) {
+    header nav ul{
+        display: none;
+    }
+    header .humber{
+        display: block;
+    }
+
+    .sec .box{
+        flex-direction: column;
+    }
+    .sec .box .image{
+        width: 80%;
+    }
+    .sec .box .txt{
+        width: 80%;
+        margin: 5%;
+    }
+   
+    .contact{
+        flex-direction: column;
+        
+    }
+    .contact .box{
+        width: 80%;
+        margin: 3% auto;
+    }
+   
+    .four{
+        grid-template-columns: 50% 50%;
+   }
+  
+    .four .box-1{
+        grid-column: 1/3;
+    }
+    
+    .five{
+        grid-template-columns: 50% 50%;
+   }
+    .five .box-1{
+        grid-column: 1/3;
+    }
+    
+    
+    
+    .six{
+        grid-template-columns:  30% 30% 30%;
+   }
+    .six .box-1{
+        grid-column: 1/4;
+    }
+    
+    
+    
+    .seven{
+         grid-template-columns:  50% 50%;
+    }
+    .seven .box-1{
+        grid-column: 1/3;
+    }
+    
+
+    .eight{
+        grid-template-columns:  50% 50%;
+    }
+    .eight .box-1{
+        grid-column: 1/3;
+    }
+    
+    
+    
+    .nine .box  {
+         flex-direction: column;
+    }
+    .nine .nine-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .ten{
+        grid-template-columns:  30% 30% 30%;
+    }
+
+    .ten .ten-1{
+        grid-column: 1/4;
+        text-align: center;
+    }
+    
+    .ten .ten-3{
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:426px) {
+    header ul{
+        display: none;
+    }
+
+    .contact .box{
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0;
+    }
+    .four{
+        grid-template-columns: 100%;
+   }
+   .four .box-2{
+    grid-column: 1/4;
+   }
+ 
+
+    
+    .five{
+            grid-template-columns: 100%;
+    }
+    .five .box{
+        grid-column: 1/2;
+    }
+   
+    
+    
+    .six{
+        grid-template-columns: 100%;
+      }
+    .six .box{
+        grid-column: 1/2;
+     }
+    
+    
+    
+    .seven{
+         grid-template-columns:  100%;
+    }
+    .seven .box{
+        grid-column: 1/2;
+    }
+    
+
+    .eight{
+        grid-template-columns:  100%;
+    }
+    .eight .box{
+        grid-column: 1/2;
+    }
+    
+    
+    
+    .ten{
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+
+    .ten .box{
+        grid-column: 1/1;
+        text-align: center;
+        
+    }
+    
+   
+
+}
